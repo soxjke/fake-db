@@ -1,0 +1,41 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"firstName": "Petro",
+			"lastName": "Korienev"
+		},
+		{
+			"id": 2,
+			"firstName": "John",
+			"lastName": "Doe"
+		},
+		{
+			"id": 3,
+			"firstName": "Jim",
+			"lastName": "Raynor"
+		},	
+		{
+			"id": 4,
+			"firstName": "Luke",
+			"lastName": "Skywalker"
+		}		
+	]
+	"orgs": [
+		{
+			"id": 1,
+			"name": "Alpha",
+			"users": [1, 2]
+		},
+		{
+			"id": 2,
+			"name": "Bravo",
+			"users": [2, 3]
+		},		
+		{
+			"id": 3,
+			"name": "Charlie",
+			"users": [3, 4]
+		}		
+	]
+}
